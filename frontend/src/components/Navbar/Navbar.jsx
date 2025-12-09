@@ -20,10 +20,10 @@ const Navbar = () => {
                                     Dropdown
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><a classNameName="dropdown-item" href="#">Action</a></li>
-                                    <li><a classNameName="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr classNameName="dropdown-divider" /></li>
-                                    <li><a classNameName="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a className="dropdown-item" href="#">Action</a></li>
+                                    <li><a className="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr className="dropdown-divider" /></li>
+                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
                             <li className="nav-item">
