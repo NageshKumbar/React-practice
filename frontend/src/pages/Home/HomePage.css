@@ -1,0 +1,7 @@
+.home_banner {
+    height: 400px;
+
+    .carousel {
+        height: 100%;
+    }
+}

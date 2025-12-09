@@ -1,7 +1,11 @@
 export default function Footer() {
     return(
         <>
-            This is the footer...
-        </>
+            <footer>
+                <center>Copyright claims &copy; Muqthar 2025</center> 
+            </footer>
+
+        </> 
+        
     )
 }
