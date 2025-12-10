@@ -7,10 +7,12 @@ function HomePage() {
     <>
         <div className="container">
             <div className="row home_banner">
-                <div className="col bg-primary">
+                <div className="col bg-primary ">
                     <Carousel />
                 </div>
+                <div className="col bg-secondary">
 
+                </div>
             </div>
 
         </div>
