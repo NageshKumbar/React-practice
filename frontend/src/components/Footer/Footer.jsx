@@ -1,8 +1,8 @@
 export default function Footer() {
     return(
         <>
-            <footer>
-                <center>Copyright claims &copy; Muqthar 2025</center> 
+            <footer className="p-1 bg-secondary">
+                <p className="text-center fw-medium">Copyright claims &copy; Nagesh 2025</p> 
             </footer>
 
         </> 
