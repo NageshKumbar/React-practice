@@ -11,7 +11,7 @@ function HomePage() {
         <>
             <div className="container">
                 <div className="row home_banner">
-                    <div className="col bg-primary ">
+                    <div className="col">
                         <Carousel images={carousel_images} />
                     </div>
                     <div className="col bg-secondary">
