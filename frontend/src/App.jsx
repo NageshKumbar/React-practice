@@ -13,8 +13,9 @@ import ContactPage from './pages/Contact/ContactPage'
 import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
 
+import { Outlet } from 'react-router-dom'
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -22,7 +23,7 @@ function App() {
           <Navbar/>
       </header>
       <main>
-          <HomePage/>
+        <Outlet />
       </main>
       <footer>
           <Footer/>
