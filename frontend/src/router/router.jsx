@@ -1,6 +1,7 @@
 import HomePage from '../pages/Home/HomePage'
 import AboutPage from '../pages/About/AboutPage'
 import ContactPage from '../pages/Contact/ContactPage'
+import ProductDetail from '../pages/ProductDetail/ProductDetail'
 
 import App from '../App'
 
@@ -22,6 +23,10 @@ const my_router = createBrowserRouter(
                 {
                     path: '/contact',
                     element: <ContactPage />
+                },
+                {
+                    path: '/product/:id',
+                    element: <ProductDetail />
                 }
             ]
         }
